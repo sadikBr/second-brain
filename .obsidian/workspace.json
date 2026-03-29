@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "282c092df8aff7bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "11505b129a7d3c24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cb79f546109d691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas/(Nuclide, Isotope Idle) Incremental Game.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(Nuclide, Isotope Idle) Incremental Game"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce8219b67d2d5225",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe0bc889d13620e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b80643f704424271",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1e5a8c09b93116fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ae71c67b587985d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ae06847e2064095f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3f4f0ae0f0138a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a8f9c4ab48206b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "67066dd9cd1e5081",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "34119b346a8f43e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6db5a468eb049aec",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d2888589d04960cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "3cb79f546109d691",
+  "lastOpenFiles": [
+    "Game Ideas/Top Game Ideas I can think of or came across.md",
+    "Game Ideas/(Nuclide, Isotope Idle) Incremental Game.md",
+    "Game Ideas",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Dependency Injection in Spring.md",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Database Integration with Spring Data JPA.md",
+    "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Getting Started with Spring Boot.md",
+    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Securing APIs with Spring Security.md",
+    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Introduction to MVC.md",
+    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Building RESTful APIs.md",
+    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/API Requests Validation.md",
+    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/images/authentication-diagrame.png",
+    "Work Related/PCDB Virtual Machine Setup.md"
+  ]
+}
