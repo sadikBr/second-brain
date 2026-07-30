@@ -4,28 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "11505b129a7d3c24",
+        "id": "223237f0200b99e3",
         "type": "tabs",
         "children": [
           {
-            "id": "3cb79f546109d691",
+            "id": "391e9dbc32514ce3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "Game Ideas/Nuclide/Nuclide Incremental Game.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md"
               },
-              "icon": "lucide-trello",
-              "title": "Nuclide Incremental Game"
+              "icon": "excalidraw-icon",
+              "title": "PCDB 12.13.2 Deployment"
             }
           }
         ]
@@ -189,22 +180,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3cb79f546109d691",
+  "active": "b80643f704424271",
   "lastOpenFiles": [
+    "Ideas Tracking/GAME IDEAS.md",
+    "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md",
+    "Work Related/PCDB Virtual Machine Setup.md",
     "Game Ideas/Nuclide/(Nuclide, Isotope Idle) Incremental Game.md",
     "Game Ideas/Nuclide/Nuclide Incremental Game.md",
     "Game Ideas/Nuclide",
-    "Game Ideas/Top Game Ideas I can think of or came across.md",
-    "Game Ideas",
+    "Ideas Tracking",
     "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Dependency Injection in Spring.md",
     "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Database Integration with Spring Data JPA.md",
-    "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md",
     "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Getting Started with Spring Boot.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Securing APIs with Spring Security.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Introduction to MVC.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Building RESTful APIs.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/API Requests Validation.md",
-    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/images/authentication-diagrame.png",
-    "Work Related/PCDB Virtual Machine Setup.md"
+    "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/images/authentication-diagrame.png"
   ]
 }
