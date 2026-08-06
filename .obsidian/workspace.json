@@ -39,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -180,10 +182,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b80643f704424271",
+  "active": "391e9dbc32514ce3",
   "lastOpenFiles": [
-    "Ideas Tracking/GAME IDEAS.md",
     "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md",
+    "Ideas Tracking/GAME IDEAS.md",
     "Work Related/PCDB Virtual Machine Setup.md",
     "Game Ideas/Nuclide/(Nuclide, Isotope Idle) Incremental Game.md",
     "Game Ideas/Nuclide/Nuclide Incremental Game.md",
