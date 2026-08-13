@@ -21,6 +21,7 @@ kanban-plugin: board
 	
 	- [ ] Tetromino Data & 7-Bag Generator
 	- [ ] Piece Movement & Collision
+	- [ ] Setup the Grid Renderer (TileMapLayer or Drawing)
 	- [ ] Hard Drop (Instant) execution
 	- [ ] Piece Rotation (SRS)
 - [ ] ###### Game Loop & Animations
@@ -35,10 +36,9 @@ kanban-plugin: board
 
 - [ ] ###### Setup New Godot Project
 	
-	- [ ] Create new project, setup it for C# use and setup the input map
+	- [x] Create new project, setup it for C# use and setup the input map and other necessary project settings
 	- [ ] Get the assets that will be used in the game later
 	- [ ] Setup the scene and folders structure
-	- [ ] Setup the Grid Renderer (TileMapLayer or Drawing)
 	
 	![[Pasted image 20260813220821.png]]
 
