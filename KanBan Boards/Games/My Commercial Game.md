@@ -1,12 +1,14 @@
 ---
+
 kanban-plugin: board
+
 ---
 
 ## Backlog
 
-- [ ] ###### First Card
+- [ ] ###### Card Template
 	
-	This  is some task description
+	This is the card description
 	
 	- [ ] First Part
 	- [ ] Second Part
