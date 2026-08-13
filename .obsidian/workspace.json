@@ -4,19 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "223237f0200b99e3",
+        "id": "fad501a73dd09c5f",
         "type": "tabs",
         "children": [
           {
-            "id": "391e9dbc32514ce3",
+            "id": "950fb1191b9f9a7a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "kanban",
               "state": {
-                "file": "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md"
+                "file": "KanBan Boards/My Commercial Game.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "PCDB 12.13.2 Deployment"
+              "icon": "lucide-trello",
+              "title": "My Commercial Game"
             }
           }
         ]
@@ -182,8 +191,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "391e9dbc32514ce3",
+  "active": "950fb1191b9f9a7a",
   "lastOpenFiles": [
+    "Find what the game should be about.md",
+    "KanBan Boards/My Commercial Game.md",
+    "KanBan Boards",
     "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md",
     "Ideas Tracking/GAME IDEAS.md",
     "Work Related/PCDB Virtual Machine Setup.md",
