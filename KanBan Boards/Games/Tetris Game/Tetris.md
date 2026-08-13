@@ -37,7 +37,7 @@ kanban-plugin: board
 - [ ] ###### Setup New Godot Project
 	
 	- [x] Create new project, setup it for C# use and setup the input map and other necessary project settings
-	- [ ] Get the assets that will be used in the game later
+	- [x] Create the assets that will be used in the game later
 	- [ ] Setup the scene and folders structure
 	
 	![[Pasted image 20260813220821.png]]
