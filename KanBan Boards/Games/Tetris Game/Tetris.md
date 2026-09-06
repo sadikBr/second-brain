@@ -6,42 +6,48 @@ kanban-plugin: board
 
 ## Backlog
 
-- [ ] ###### UI & Game Polish
+- [ ] [[Rotational Transformations & Offset Math]]
 	
-	- [ ] Next Piece Queue & Hold Piece system
-	- [ ] Ghost Piece Projection
-	- [ ] Game Over & Main Menu
-	- [ ] Add Pause / Unpause state
-	- [ ] Maybe include some SFX & Audio Streams
+	#Matrix
+- [ ] [[Spatial Collision & Boundry Engine]]
+	
+	#Physics
+- [ ] [[SRS Wall Kick Offset System]]
+	
+	#SRS
+- [ ] [[Gravity Loop & Lock Delay Pipeline]]
+	
+	#Logic
+- [ ] [[Playfield Matrix & Line Clearance]]
+	
+	#Grid
+- [ ] [[7-Bag Randomizer & Queue Manager]]
+	
+	#Randomizer
+- [ ] [[Ghost Projection, Hold & Hard Drop]]
+	
+	#Mechanics
+- [ ] [[Score Engine & Level Curve Scaling]]
+	
+	#Scoring
+- [ ] [[Event-Driven HUD, Overlays & Sound]]
+	
+	#UI
 
 
 ## Todo
 
-- [ ] ###### Piece Logic & Spawning
+- [ ] [[Tetromino Matric & Relative Coordinates]]
 	
-	- [ ] Tetromino Data & 7-Bag Generator
-	- [ ] Piece Movement & Collision
-	- [ ] Setup the Grid Renderer (TileMapLayer or Drawing)
-	- [ ] Hard Drop (Instant) execution
-	- [ ] Piece Rotation (SRS)
-- [ ] ###### Game Loop & Animations
+	#Data
+- [ ] [[Action Mapping & Input Buffer]]
 	
-	- [ ] Gravity & Lock Delay (Also know by HitStop, Before locking the piece into the grid give it a brief time when it should still be able to move before locking it to grid)
-	- [ ] Line Clears & Scoring
-	- [ ] Tweens & Smooth Movement
-	- [ ] Add Level-Based gravity speed scaling
+	#Input
 
 
 ## In Progress
 
-- [ ] ###### Setup New Godot Project
-	
-	- [x] Create new project, setup it for C# use and setup the input map and other necessary project settings
-	- [x] Create the assets that will be used in the game later
-	- [ ] Setup the scene and folders structure
-	
-	![[Pasted image 20260813220821.png]]
-- [ ] [[Some Tetris Task to Complete]]
+- [ ] [[Root Architecture & State Machine]]
 	
 	#Setup
 
@@ -55,6 +61,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false],"new-note-template":"Templates/KanBan Card Template.md","new-note-folder":"KanBan Boards/Games/Tetris Game/Card Notes","new-line-trigger":"shift-enter","show-relative-date":true,"metadata-keys":[{"metadataKey":"Created At","label":"","shouldHideLabel":false,"containsMarkdown":false},{"metadataKey":"Due Date","label":"","shouldHideLabel":false,"containsMarkdown":false}],"tag-sort":[{"tag":"#Setup"}],"tag-colors":[{"tagKey":"#Setup","color":"rgba(22, 37, 58, 1)","backgroundColor":"rgba(121, 244, 129, 1)"}]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false],"new-note-template":"Templates/KanBan Card Template.md","new-note-folder":"KanBan Boards/Games/Tetris Game/Card Notes","new-line-trigger":"shift-enter","show-relative-date":true,"metadata-keys":[{"metadataKey":"Created At","label":"","shouldHideLabel":false,"containsMarkdown":false},{"metadataKey":"Due Date","label":"","shouldHideLabel":false,"containsMarkdown":false}],"tag-sort":[{"tag":"#Setup"},{"tag":"#Data"},{"tag":"#Input"},{"tag":"#Matrix"},{"tag":"#Physics"},{"tag":"#SRS"},{"tag":"#Logic"},{"tag":"#Grid"},{"tag":"#Randomizer"},{"tag":"#Mechanics"},{"tag":"#Scoring"},{"tag":"#UI"}],"tag-colors":[{"tagKey":"#Setup","color":"rgba(224, 176, 255, 1)","backgroundColor":"rgba(45, 26, 56, 1)"},{"tagKey":"#Data","color":"rgba(137, 207, 240, 1)","backgroundColor":"rgba(26, 43, 60, 1)"},{"tagKey":"#Input","color":"rgba(255, 192, 203, 1)","backgroundColor":"rgba(61, 43, 31, 1)"},{"tagKey":"#Matrix","color":"rgba(168, 230, 207, 1)","backgroundColor":"rgba(28, 51, 43, 1)"},{"tagKey":"#Physics","color":"rgba(255, 179, 71, 1)","backgroundColor":"rgba(59, 42, 26, 1)"},{"tagKey":"#SRS","color":"rgba(255, 107, 107, 1)","backgroundColor":"rgba(58, 28, 28, 1)"},{"tagKey":"#Logic","color":"rgba(189, 195, 199, 1)","backgroundColor":"rgba(44, 62, 80, 1)"},{"tagKey":"#Grid","color":"rgba(118, 215, 234, 1)","backgroundColor":"rgba(26, 56, 56, 1)"},{"tagKey":"#Randomizer","color":"rgba(244, 194, 194, 1)","backgroundColor":"rgba(51, 26, 56, 1)"},{"tagKey":"#Mechanics","color":"rgba(195, 232, 141, 1)","backgroundColor":"rgba(46, 59, 31, 1)"},{"tagKey":"#Scoring","color":"rgba(255, 230, 109, 1)","backgroundColor":"rgba(61, 56, 31, 1)"},{"tagKey":"#UI","color":"rgba(128, 179, 255, 1)","backgroundColor":"rgba(31, 45, 61, 1)"}]}
 ```
 %%
