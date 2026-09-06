@@ -41,16 +41,20 @@ kanban-plugin: board
 	- [ ] Setup the scene and folders structure
 	
 	![[Pasted image 20260813220821.png]]
+- [ ] [[Some Tetris Task to Complete]]
+	
+	#Setup
 
 
 ## Done
 
+**Complete**
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false],"new-note-template":"Templates/KanBan Card Template.md","new-note-folder":"KanBan Boards/Games/Tetris Game/Card Notes","new-line-trigger":"shift-enter","show-relative-date":true,"metadata-keys":[{"metadataKey":"Created At","label":"","shouldHideLabel":false,"containsMarkdown":false},{"metadataKey":"Due Date","label":"","shouldHideLabel":false,"containsMarkdown":false}],"tag-sort":[{"tag":"#Setup"}],"tag-colors":[{"tagKey":"#Setup","color":"rgba(22, 37, 58, 1)","backgroundColor":"rgba(121, 244, 129, 1)"}]}
 ```
 %%

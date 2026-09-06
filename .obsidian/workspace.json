@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "743899169f129b1d",
+        "id": "8f6fe11ed39a30a4",
         "type": "tabs",
         "children": [
           {
-            "id": "52480058e3c5bc44",
+            "id": "064cfd82ff6cc101",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Setup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,20 +191,31 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "52480058e3c5bc44",
+  "active": "064cfd82ff6cc101",
   "lastOpenFiles": [
+    "KanBan Boards/Games/Tetris Game/Card Notes/Some Tetris Task to Complete.md",
+    "KanBan Boards/Games/Tetris Game/Tetris.md",
+    "Templates/KanBan Card Template.md",
     "KanBan Boards/Games/Tetris Game/Pasted image 20260813220821.png",
+    "KanBan Boards/Games/Tetris Game/Card Notes/Create & Setup a new godot project.md",
+    "KanBan Boards/Games/Tetris Game/Card Notes/New Note.md",
+    "KanBan Boards/Games/Tetris Game/Card Notes",
+    "Templates/New Note.md",
+    "My New Note.md",
+    "KanBan Boards/Untitled.md",
+    "Templates",
+    "New Card.md",
+    "Untitled.base",
     "KanBan Boards/Games/My Commercial Game.md",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Getting Started with Spring Boot.md",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Database Integration with Spring Data JPA.md",
     "Ideas Tracking/GAME IDEAS.md",
     "Excalidraw Diagrams/PCDB 12.13.2 Deployment.md",
-    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Getting Started with Spring Boot.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/API Requests Validation.md",
     "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Dependency Injection in Spring.md",
-    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Database Integration with Spring Data JPA.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Securing APIs with Spring Security.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Introduction to MVC.md",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/Building RESTful APIs.md",
-    "KanBan Boards/Games/Tetris Game/Tetris.md",
     "Pasted image 20260813220718.png",
     "Pasted image 20260813220300.png",
     "KanBan Boards/Games/Tetris Game",
