@@ -3,7 +3,7 @@ Name: SRS Wall Kick Offset System
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 6: SRS Wall Kick Offset System
+# SRS Wall Kick Offset System
 
 - [ ] **Task 6.1: JLSTZ Kick Offset Tables**
   - Construct standard 5-vector test tables for all 8 rotational transitions ($0 \to 1$, $1 \to 0$, $1 \to 2$, etc.) for $J, L, S, T, Z$ pieces.

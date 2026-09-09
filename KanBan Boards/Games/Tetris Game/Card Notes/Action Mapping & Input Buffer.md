@@ -3,7 +3,7 @@ Name: Action Mapping & Input Buffer
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 3: Action Mapping & Input Buffer
+# Action Mapping & Input Buffer
 
 - [ ] **Task 3.1: Input Action Schema**
   - Register discrete input triggers: `move_left`, `move_right`, `soft_drop`, `hard_drop`, `rotate_cw`, `rotate_ccw`, `hold_piece`.

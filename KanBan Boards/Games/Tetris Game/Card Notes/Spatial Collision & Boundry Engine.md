@@ -3,7 +3,7 @@ Name: Spatial Collision & Boundry Engine
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 5: Spatial Collision & Boundary Engine
+# Spatial Collision & Boundary Engine
 
 - [ ] **Task 5.1: Boundary Query Algorithm**
   - Design a validation algorithm `is_valid_position(cells, target_position) -> bool`.

@@ -3,7 +3,7 @@ Name: Ghost Projection, Hold & Hard Drop
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 10: Ghost Projection, Hold & Hard Drop
+# Ghost Projection, Hold & Hard Drop
 
 - [ ] **Task 10.1: Real-Time Ghost Projection**
   - Calculate landing position on every frame: clone active piece position and project downward ($Y + 1$) until `is_valid_position()` returns false.

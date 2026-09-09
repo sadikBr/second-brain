@@ -3,7 +3,7 @@ Name: 7-Bag Randomizer & Queue Manager
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 9: 7-Bag Randomizer & Queue Manager
+# 7-Bag Randomizer & Queue Manager
 
 - [ ] **Task 9.1: Fisher-Yates Shuffle Generator**
   - Implement a bag randomizer class containing one instance of each of the 7 shapes.

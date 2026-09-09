@@ -3,7 +3,7 @@ Name: Root Architecture & State Machine
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 1: Root Architecture & State Machine
+# Root Architecture & State Machine
 
 - [ ] **Task 1.1: Top-Level Node Ownership**
   - Design `Main` as the top-level game orchestrator managing state transitions and cross-system communication.

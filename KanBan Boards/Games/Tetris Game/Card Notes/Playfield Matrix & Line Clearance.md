@@ -3,7 +3,7 @@ Name: Playfield Matrix & Line Clearance
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 8: Playfield Matrix & Line Clearance
+# Playfield Matrix & Line Clearance
 
 - [ ] **Task 8.1: 2D Spatial Array Structure**
   - Maintain a $10 \text{ columns} \times 20 \text{ rows}$ matrix storing block node references or `null` for empty space.

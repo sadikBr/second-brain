@@ -3,7 +3,7 @@ Name: Rotational Transformations & Offset Math
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 4: Rotational Transformations & Offset Math
+# Rotational Transformations & Offset Math
 
 - [ ] **Task 4.1: Rotational State Indices**
   - Define 4 rotational states per shape: $0$ (Spawn), $1$ ($90^\circ$ Clockwise), $2$ ($180^\circ$), $3$ ($270^\circ$ Counter-Clockwise).

@@ -3,7 +3,7 @@ Name: Gravity Loop & Lock Delay Pipeline
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 7: Gravity Loop & Lock Delay Pipeline
+# Gravity Loop & Lock Delay Pipeline
 
 - [ ] **Task 7.1: Gravity Tick Mechanism**
   - Implement a timer-driven step function that moves the active piece down by 1 row ($Y + 1$) on every tick.

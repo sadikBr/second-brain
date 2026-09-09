@@ -3,7 +3,7 @@ Name: Tetromino Matric & Relative Coordinates
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 2: Tetromino Matrix & Relative Coordinates
+# Tetromino Matrix & Relative Coordinates
 
 - [ ] **Task 2.1: Local Vector Grid Mapping**
   - Define all 7 standard shapes ($I, J, L, O, S, T, Z$) as relative coordinate arrays centered around a local origin $(0, 0)$.

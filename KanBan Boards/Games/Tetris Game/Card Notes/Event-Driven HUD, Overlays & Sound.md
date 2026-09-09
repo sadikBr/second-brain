@@ -3,7 +3,7 @@ Name: Event-Driven HUD, Overlays & Sound
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 12: Event-Driven HUD, Overlays & Sound
+# Event-Driven HUD, Overlays & Sound
 
 - [ ] **Task 12.1: Signal & Observer Binding**
   - Connect game events to UI display nodes via decoupled signals:

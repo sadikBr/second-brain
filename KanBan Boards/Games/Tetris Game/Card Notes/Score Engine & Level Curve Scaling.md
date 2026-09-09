@@ -3,7 +3,7 @@ Name: Score Engine & Level Curve Scaling
 Created At: 2026-09-06
 Due Date:
 ---
-# Step 11: Score Engine & Level Curve Scaling
+# Score Engine & Level Curve Scaling
 
 - [ ] **Task 11.1: Line Clear Scoring Calculation**
   - Award points based on cleared lines per step:
