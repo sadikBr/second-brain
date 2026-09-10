@@ -1,7 +1,6 @@
 ---
 Name: Explosion Penalty System
 Created At: 2026-09-09
-Due Date:
 ---
 - **Design Objective:** Establish a clear negative consequence when a block's timer hits zero.
     

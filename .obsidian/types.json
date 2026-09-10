@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Created At": "date",
-    "Due Date": "date"
+    "Due Date": "date",
+    "Name": "text"
   }
 }

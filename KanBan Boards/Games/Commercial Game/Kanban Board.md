@@ -6,28 +6,33 @@ kanban-plugin: board
 
 ## Backlog
 
-- [ ] [[Tractor-Beam Interaction (Grab & Throw)]]
-- [ ] [[Isotope Fusion System]]
-- [ ] [[Coolant Station Zone]]
-- [ ] [[Delivery Chute Zone]]
-- [ ] [[Automatic Block Spawner]]
 - [ ] [[Explosion Penalty System]]
+- [ ] [[Isotope Fusion System]]
 - [ ] [[Match Loop & Victory Loss Conditions]]
 
 
 ## Todo
 
-- [ ] [[Bounded Arena]]
+- [ ] [[Make the player's decisions interesting]]
+- [ ] [[Improve game feel]]
+- [ ] [[Strengthen the project architecture]]
+- [ ] [[Build a real prototype package]]
 
 
 ## In Progress
 
-- [ ] [[Ticking Isotope Block]]
+- [ ] [[Finish the current core loop]]
 
 
 ## Done
 
 **Complete**
+- [x] [[Automatic Block Spawner]]
+- [x] [[Delivery Chute Zone]]
+- [x] [[Coolant Station Zone]]
+- [x] [[Tractor-Beam Interaction (Grab & Throw)]]
+- [x] [[Ticking Isotope Block]]
+- [x] [[Bounded Arena]]
 
 
 

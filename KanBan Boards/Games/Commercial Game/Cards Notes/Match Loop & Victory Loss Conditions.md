@@ -1,7 +1,6 @@
 ---
 Name: Match Loop & Victory Loss Conditions
 Created At: 2026-09-09
-Due Date:
 ---
 - **Design Objective:** Track total shift progress and resolve the game round with a win or loss state.
     

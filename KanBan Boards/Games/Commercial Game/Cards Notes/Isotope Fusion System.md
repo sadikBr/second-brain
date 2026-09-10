@@ -1,7 +1,6 @@
 ---
 Name: Isotope Fusion System
 Created At: 2026-09-09
-Due Date:
 ---
 - **Design Objective:** Allow identical blocks to combine into a single, higher-value block upon collision.
     
