@@ -4,20 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5026266b3fdeaf08",
+        "id": "c6f000f17fe415f1",
         "type": "tabs",
         "children": [
           {
-            "id": "f9686fb3bd35df61",
+            "id": "44c837be2da10f50",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "KanBan Boards/Games/Commercial Game/Kanban Board.md",
+                "file": "KanBan Boards/Quran Application.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
-                    false,
                     false,
                     false,
                     false
@@ -25,7 +24,7 @@
                 }
               },
               "icon": "lucide-trello",
-              "title": "Kanban Board"
+              "title": "Quran Application"
             }
           }
         ]
@@ -191,10 +190,32 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f9686fb3bd35df61",
+  "active": "44c837be2da10f50",
   "lastOpenFiles": [
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Build a real prototype package.md",
+    "KanBan Boards/Games/Reaction Order/Reaction Order.md",
+    "KanBan Boards/Games/Reaction Order/KanBan Board.md",
+    "KanBan Boards/Quran Application.md",
+    "KanBan Boards/Untitled",
+    "KanBan Boards/Games/Reaction Order/Cards",
+    "KanBan Boards/Games/Tetris Game/Tetris.md",
+    "KanBan Boards/Games/Reaction Order",
     "KanBan Boards/Games/Commercial Game/Kanban Board.md",
+    "KanBan Boards/Games/Orbit Foundry/Kanban Board.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Play-test and iterate.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Save, balance, and polish.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Upgrades and first prestige.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Meaningful spatial decisions.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Build and economy UI.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Refinery machine and delivery.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Miner machine.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Orbit system.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Asteroid and resource generation.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/World and camera.md",
+    "KanBan Boards/Games/Orbit Foundry/Orbit Foundry.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes/Foundation.md",
+    "KanBan Boards/Games/Orbit Foundry/Cards Notes",
+    "KanBan Boards/Games/Orbit Foundry",
+    "KanBan Boards/Games/Commercial Game/Cards Notes/Build a real prototype package.md",
     "KanBan Boards/Games/Commercial Game/Cards Notes/Strengthen the project architecture.md",
     "KanBan Boards/Games/Commercial Game/Cards Notes/Improve game feel.md",
     "KanBan Boards/Games/Commercial Game/Cards Notes/Make the player's decisions interesting.md",
@@ -202,36 +223,14 @@
     "KanBan Boards/Games/Commercial Game/Cards Notes/Finish the current core loop.md",
     "KanBan Boards/Games/Commercial Game/Cards Notes/Match Loop & Victory Loss Conditions.md",
     "KanBan Boards/Games/Commercial Game/Cards Notes/Explosion Penalty System.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Isotope Fusion System.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Bounded Arena.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Ticking Isotope Block.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Tractor-Beam Interaction (Grab & Throw).md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Coolant Station Zone.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Delivery Chute Zone.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Automatic Block Spawner.md",
-    "KanBan Boards/Games/Commercial Game/Isotope Shift  (or Half-Life Express).md",
-    "KanBan Boards/Games/Tetris Game/Tetris.md",
     "KanBan Boards/Games/Tetris Game/Pasted image 20260813220821.png",
     "KanBan Boards/Games/Commercial Game/Cards Notes",
-    "KanBan Boards/Games/My Commercial Game.md",
     "KanBan Boards/Games/Commercial Game",
-    "KanBan Boards/Games/Tetris Game/Card Notes/Root Architecture & State Machine.md",
-    "KanBan Boards/Games/Tetris Game/Card Notes/Tetromino Matric & Relative Coordinates.md",
-    "KanBan Boards/Games/Tetris Game/Card Notes/Action Mapping & Input Buffer.md",
-    "KanBan Boards/Games/Tetris Game/Card Notes/Rotational Transformations & Offset Math.md",
-    "KanBan Boards/Games/Tetris Game/Card Notes/Spatial Collision & Boundry Engine.md",
-    "KanBan Boards/Games/Tetris Game/Card Notes/SRS Wall Kick Offset System.md",
-    "KanBan Boards/Games/Tetris Game/Card Notes/Gravity Loop & Lock Delay Pipeline.md",
     "KanBan Boards/Games/Tetris Game/Card Notes",
     "Templates",
     "Untitled.base",
     "Pasted image 20260813220718.png",
     "Pasted image 20260813220300.png",
-    "KanBan Boards/Games/Tetris Game",
-    "KanBan Boards/Games",
-    "KanBan Boards",
-    "Game Ideas/Nuclide",
-    "Ideas Tracking",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/images/authentication-diagrame.png"
   ]
 }

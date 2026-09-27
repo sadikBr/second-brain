@@ -1,3 +1,7 @@
 {
-  "cssTheme": "Things"
+  "cssTheme": "Things",
+  "interfaceFontFamily": "RobotoMono Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "baseFontSize": 18
 }
