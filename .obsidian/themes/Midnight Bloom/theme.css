@@ -1,0 +1,263 @@
+/*
+ * Midnight Bloom for Obsidian
+ * Matches the Midnight Bloom Alacritty and Zed themes.
+ * Select the Dark base color scheme in Settings > Appearance.
+ */
+
+.theme-dark {
+  /* Palette */
+  --mb-night: #12161e;
+  --mb-sidebar: #141820;
+  --mb-background: #171b24;
+  --mb-surface: #1b202b;
+  --mb-raised: #232a38;
+  --mb-border: #2b3445;
+  --mb-text: #d8dee9;
+  --mb-bright: #f0f3fa;
+  --mb-muted: #a0abc0;
+  --mb-faint: #8993a5;
+  --mb-blue: #8caaee;
+  --mb-blue-bright: #adc5ff;
+  --mb-lavender: #b7a5e8;
+  --mb-purple: #ca9ee6;
+  --mb-teal: #81c8be;
+  --mb-green: #a6d189;
+  --mb-coral: #e78284;
+  --mb-peach: #e9b18e;
+  --mb-sand: #e5c890;
+
+  /* Core color scale, also used by built-in views and plugins */
+  --color-base-00: var(--mb-background);
+  --color-base-05: #1a1f29;
+  --color-base-10: var(--mb-surface);
+  --color-base-20: #202735;
+  --color-base-25: var(--mb-raised);
+  --color-base-30: var(--mb-border);
+  --color-base-35: #354158;
+  --color-base-40: #55627a;
+  --color-base-50: var(--mb-faint);
+  --color-base-60: #96a2b8;
+  --color-base-70: var(--mb-muted);
+  --color-base-100: var(--mb-text);
+  --color-red: var(--mb-coral);
+  --color-orange: var(--mb-peach);
+  --color-yellow: var(--mb-sand);
+  --color-green: var(--mb-green);
+  --color-cyan: var(--mb-teal);
+  --color-blue: var(--mb-blue);
+  --color-purple: var(--mb-purple);
+  --color-pink: #dba8c5;
+
+  /* Keep Obsidian's custom accent-color control functional */
+  --accent-h: 222;
+  --accent-s: 74%;
+  --accent-l: 74%;
+  --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 5%));
+  --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 9%));
+
+  /* Surfaces and borders */
+  --background-primary: var(--mb-background);
+  --background-primary-alt: var(--mb-surface);
+  --background-secondary: var(--mb-sidebar);
+  --background-secondary-alt: var(--mb-night);
+  --background-modifier-hover: #8caaee12;
+  --background-modifier-active-hover: #8caaee20;
+  --background-modifier-border: var(--mb-border);
+  --background-modifier-border-hover: #44516a;
+  --background-modifier-border-focus: var(--color-accent);
+  --background-modifier-form-field: var(--mb-surface);
+  --background-modifier-form-field-hover: var(--mb-raised);
+  --background-modifier-error: #e7828426;
+  --background-modifier-error-hover: #e782843b;
+  --background-modifier-warning: #e5c89026;
+  --background-modifier-warning-hover: #e5c8903b;
+  --background-modifier-success: #a6d18926;
+  --background-modifier-message: var(--mb-raised);
+  --background-modifier-box-shadow: #080b1266;
+  --background-modifier-cover: #0b0e16a6;
+  --divider-color: var(--mb-border);
+  --divider-color-hover: var(--color-accent);
+
+  /* Text and focus */
+  --text-normal: var(--mb-text);
+  --text-muted: var(--mb-muted);
+  --text-faint: var(--mb-faint);
+  --text-accent: var(--color-accent);
+  --text-accent-hover: var(--color-accent-2);
+  --text-on-accent: var(--mb-background);
+  --text-on-accent-inverted: var(--mb-background);
+  --text-error: var(--mb-coral);
+  --text-warning: var(--mb-sand);
+  --text-success: var(--mb-green);
+  --text-selection: #354158b3;
+  --text-highlight-bg: #e5c89030;
+  --caret-color: var(--mb-lavender);
+  --interactive-normal: var(--mb-raised);
+  --interactive-hover: #2b3547;
+  --interactive-accent: var(--color-accent);
+  --interactive-accent-hover: var(--color-accent-1);
+  --icon-color: #bcc6d8;
+  --icon-color-hover: var(--mb-bright);
+  --icon-color-active: var(--color-accent);
+  --icon-color-focused: var(--color-accent);
+
+  /* Window chrome, sidebars, tabs, and the file explorer */
+  --titlebar-background: var(--mb-night);
+  --titlebar-background-focused: var(--mb-night);
+  --titlebar-text-color: var(--mb-faint);
+  --titlebar-text-color-focused: var(--mb-text);
+  --ribbon-background: var(--mb-sidebar);
+  --ribbon-background-collapsed: var(--mb-sidebar);
+  --tab-container-background: var(--mb-sidebar);
+  --tab-background-active: var(--mb-background);
+  --tab-text-color: var(--mb-faint);
+  --tab-text-color-active: var(--mb-text);
+  --tab-text-color-focused: var(--mb-muted);
+  --tab-text-color-focused-active: var(--mb-text);
+  --tab-text-color-focused-active-current: var(--mb-blue-bright);
+  --tab-text-color-focused-highlighted: var(--color-accent);
+  --tab-divider-color: var(--mb-border);
+  --tab-outline-color: var(--mb-border);
+  --status-bar-background: var(--mb-sidebar);
+  --status-bar-text-color: var(--mb-muted);
+  --status-bar-border-color: var(--mb-border);
+  --nav-item-color: #bcc6d8;
+  --nav-item-color-hover: var(--mb-bright);
+  --nav-item-color-active: var(--mb-blue-bright);
+  --nav-item-color-selected: var(--mb-blue-bright);
+  --nav-item-color-highlighted: var(--color-accent);
+  --nav-item-background-hover: #252e40;
+  --nav-item-background-active: #2d3a52;
+  --nav-item-background-selected: #2d3a52;
+  --nav-indentation-guide-color: var(--mb-border);
+  --nav-collapse-icon-color: var(--mb-faint);
+  --nav-collapse-icon-color-collapsed: var(--mb-blue);
+  --nav-heading-color: var(--mb-muted);
+  --nav-heading-color-hover: var(--mb-bright);
+
+  /* Menus, search, settings, and properties */
+  --menu-background: var(--mb-raised);
+  --menu-border-color: #354158;
+  --modal-background: var(--mb-surface);
+  --modal-sidebar-background: var(--mb-sidebar);
+  --modal-border-color: #354158;
+  --prompt-background: var(--mb-raised);
+  --prompt-border-color: #44516a;
+  --search-result-background: var(--mb-surface);
+  --metadata-border-color: var(--mb-border);
+  --metadata-label-text-color: var(--mb-faint);
+  --metadata-label-text-color-hover: var(--mb-muted);
+  --metadata-input-text-color: var(--mb-text);
+  --metadata-property-background-active: #252e40;
+  --metadata-divider-color: var(--mb-border);
+
+  /* Note hierarchy: colored headings, neutral body text */
+  --inline-title-color: var(--mb-blue-bright);
+  --h1-color: var(--mb-blue-bright);
+  --h2-color: var(--mb-lavender);
+  --h3-color: var(--mb-teal);
+  --h4-color: var(--mb-text);
+  --h5-color: #b5c8ed;
+  --h6-color: var(--mb-muted);
+  --heading-formatting: var(--mb-faint);
+  --bold-color: var(--mb-bright);
+  --italic-color: var(--mb-lavender);
+  --hr-color: var(--mb-border);
+  --list-marker-color: var(--mb-faint);
+  --list-marker-color-hover: var(--mb-blue);
+  --list-marker-color-collapsed: var(--mb-blue);
+  --indentation-guide-color: #30394a;
+  --indentation-guide-color-active: #55627a;
+
+  /* Links, tags, highlights, and embedded notes */
+  --link-color: var(--color-accent);
+  --link-color-hover: var(--color-accent-2);
+  --link-external-color: var(--mb-teal);
+  --link-external-color-hover: #a1ded5;
+  --link-unresolved-color: var(--mb-lavender);
+  --link-unresolved-opacity: 0.8;
+  --link-unresolved-decoration-color: #b7a5e866;
+  --tag-color: var(--mb-lavender);
+  --tag-color-hover: #dcbaf2;
+  --tag-background: #b7a5e814;
+  --tag-background-hover: #b7a5e826;
+  --tag-border-color: #b7a5e833;
+  --tag-border-color-hover: #b7a5e859;
+  --tag-border-width: 1px;
+  --embed-background: transparent;
+  --embed-border-start: 2px solid var(--mb-border);
+  --blockquote-color: #bcc6d8;
+  --blockquote-border-color: var(--mb-teal);
+  --blockquote-background-color: #81c8be08;
+
+  /* Tasks and callouts */
+  --checkbox-color: var(--mb-teal);
+  --checkbox-color-hover: #a1ded5;
+  --checkbox-marker-color: var(--mb-background);
+  --checkbox-border-color: #68758b;
+  --checkbox-border-color-hover: var(--mb-teal);
+  --checklist-done-color: var(--mb-faint);
+  --callout-border-width: 1px;
+  --callout-border-opacity: 0.2;
+  --callout-radius: 8px;
+  --callout-default: var(--mb-blue);
+  --callout-info: var(--mb-blue);
+  --callout-todo: var(--mb-blue);
+  --callout-tip: var(--mb-teal);
+  --callout-important: var(--mb-teal);
+  --callout-summary: var(--mb-teal);
+  --callout-success: var(--mb-green);
+  --callout-question: var(--mb-sand);
+  --callout-warning: var(--mb-sand);
+  --callout-error: var(--mb-coral);
+  --callout-fail: var(--mb-coral);
+  --callout-bug: var(--mb-coral);
+  --callout-example: var(--mb-purple);
+  --callout-quote: var(--mb-faint);
+
+  /* Code: consistent colors in Editing and Reading views */
+  --code-background: var(--mb-surface);
+  --code-border-color: var(--mb-border);
+  --code-normal: var(--mb-text);
+  --code-comment: var(--mb-faint);
+  --code-function: var(--mb-blue);
+  --code-important: var(--mb-sand);
+  --code-keyword: var(--mb-purple);
+  --code-operator: #a8c9d9;
+  --code-property: #b5c8ed;
+  --code-punctuation: var(--mb-muted);
+  --code-string: var(--mb-green);
+  --code-tag: var(--mb-coral);
+  --code-value: var(--mb-peach);
+
+  /* Tables and Bases */
+  --table-background: transparent;
+  --table-border-color: var(--mb-border);
+  --table-header-background: var(--mb-raised);
+  --table-header-background-hover: #2b3547;
+  --table-header-color: var(--mb-blue-bright);
+  --table-header-border-color: #354158;
+  --table-text-color: var(--mb-text);
+  --table-row-alt-background: #1b202b80;
+  --table-row-background-hover: #8caaee0f;
+  --table-row-alt-background-hover: #8caaee18;
+  --table-selection: #35415880;
+  --table-selection-border-color: var(--mb-blue);
+  --bases-table-header-background: var(--mb-surface);
+  --bases-table-header-color: var(--mb-muted);
+
+  /* Graph, Canvas, and scrollbars */
+  --graph-text: var(--mb-text);
+  --graph-line: #354158;
+  --graph-node: var(--mb-blue);
+  --graph-node-unresolved: #68758b;
+  --graph-node-focused: var(--mb-lavender);
+  --graph-node-tag: var(--mb-teal);
+  --graph-node-attachment: var(--mb-sand);
+  --canvas-background: var(--mb-background);
+  --canvas-dot-pattern: var(--mb-border);
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #8993a52e;
+  --scrollbar-active-thumb-bg: #8993a563;
+}
