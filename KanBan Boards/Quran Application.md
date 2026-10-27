@@ -31,56 +31,57 @@ kanban-plugin: board
 - [ ] **Request an assignment adjustment**
 	
 	Ask for smaller portion or later deadline, with supervisor approval
-- [ ] **Weekly planning view**
-	
-	Distribute tasks across the week and see overloaded days before committing
-- [ ] Error monitoring and production health reporting
-- [ ] **Personal recurring tasks**
-	
-	Add your own items, such as studying tafsir every Saturday or something
-- [ ] **A catch-up option for missed assignments**
-	
-	If someone falls behind, let them request a smaller portion or a new deadline. The supervisor can approve it without recreating the assignment.
-- [ ] **Similar-ayah study mode — المتشابهات**
-	
-	Show commonly confused passages side by side, highlighting where their wording differs. This would need carefully reviewed source material.
-- [ ] **Personal mistakes notebook**
-	
-	During a session, the supervisor marks the exact ayah where the learner hesitated or made a mistake. The learner can revisit those passages afterward.
-- [ ] **Halaqah resource shelf**
-	
-	A shared place for lesson documents, useful links, and supervisor guidance
-- [ ] **Simple daily plan**
-	
-	Combine today's wird, revision, adhkar, and assignments into one checklist. Let users choose what appears without turning worship into a competitive score
 - [ ] **Post meeting summary for the members**
 	
 	After a halaqah meeting, each member sees what they recited, the supervisor’s feedback, and what to prepare next.
+
+
+## Todo
+
+- [ ] **Halaqah resource shelf**
+	
+	A shared place for lesson documents, useful links, and supervisor guidance
 - [ ] **Revision partners**
 	
 	Opt in to pairing with another member for mutual practice
 - [ ] **Notification inbox**
 	
 	Revisit reminders and assignments alerts after dismissing the phone notification
-- [ ] For the personal practice view, I should be able to set which days of the week are for memorization and which one are for practicing what is already memorized.
-- [ ] **Riwayah-aware reading progress**
-	
-	Keep separate reading positions for Hafs and Warsh. Switching riwayah would return users to the correct page and ayah instead of reusing an incompatible location. This is relatively small and prevents another class of numbering bugs.
-
-
-## Todo
-
-- [ ] I want to add also a weekly memorization plan along the revision one.
-	
-	The user can set the amount they want to memorize by week, for example (One quarter hizb per week), and then we can generate this amount split between all their memorization days.
-	
-	And then we can use this as the source of truth about how to fill the memorization grid. Along with the circle reviews.
-- [ ] I would like to add a way for a user to define his revision days and memorization days. The weekly revision plan will then use this instead of requiring the selection of revision days.
 
 
 ## Done
 
 **Complete**
+- [x] **Simple daily plan**
+	
+	Combine today's wird, revision, adhkar, and assignments into one checklist. Let users choose what appears without turning worship into a competitive score
+- [x] **Personal recurring tasks**
+	
+	Add your own custom plans, such as studying tafsir every Saturday or something, reading al kahf every friday, reading al mulk every night...
+- [x] **Personal mistakes notebook**
+	
+	During a session, the supervisor marks the exact ayah where the learner hesitated or made a mistake. The learner can revisit those passages afterward.
+- [x] **Similar-ayah study mode — المتشابهات**
+	
+	Show commonly confused passages side by side, highlighting where their wording differs. This would need carefully reviewed source material.
+- [x] **Weekly planning view**
+	
+	Distribute tasks across the week and see overloaded days before committing
+- [x] I want to change the memorization plan, I want to set the weekly amount plus a direction from the beginning to the end of the quran or the opposite, I don't want to provide the start. the plan should figure out where should I start based on the grid of my memorization.
+	
+	And it should also watch for my grid correction and adapt correctly.
+- [x] For the personal practice view, I should be able to set which days of the week are for memorization and which one are for practicing what is already memorized.
+- [x] We should make the revision/plan pages only informative pages.
+	
+	Now all the cards give you access to memorize/revise their portions, but we should make that only the active card can be opened in the reader (meaning the card related to the current memorization/revision day).
+	
+	The active revision/memorization card will show in the practice page.
+- [x] I want to add also a weekly memorization plan along the revision one.
+	
+	The user can set the amount they want to memorize by week, for example (One quarter hizb per week), and then we can generate this amount split between all their memorization days.
+	
+	And then we can use this as the source of truth about how to fill the memorization grid. Along with the circle reviews.
+- [x] I would like to add a way for a user to define his revision days and memorization days. The weekly revision plan will then use this instead of requiring the selection of revision days.
 - [x] If the memorization page gets implemented, then we can also implement automatically generating ranges to revise per week for the user given the selected hizbs
 - [x] make the memorization tracking page filled in automatically.
 	

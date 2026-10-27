@@ -4,19 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c6f000f17fe415f1",
+        "id": "923e9bf6468d6002",
         "type": "tabs",
         "children": [
           {
-            "id": "44c837be2da10f50",
+            "id": "61e2084072cbe081",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "KanBan Boards/Quran Application.md",
+                "file": "KanBan Boards/Quraani.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
+                    false,
                     false,
                     false,
                     false
@@ -24,7 +25,7 @@
                 }
               },
               "icon": "lucide-trello",
-              "title": "Quran Application"
+              "title": "Quraani"
             }
           }
         ]
@@ -77,7 +78,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -190,11 +194,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "44c837be2da10f50",
+  "active": "b80643f704424271",
   "lastOpenFiles": [
+    "KanBan Boards/Quran Application.md",
+    "KanBan Boards/Quraani.md",
+    "KanBan Boards/Games/Haunted Workshop/Haunted Workshop.md",
+    "KanBan Boards/Games/A Little Possessed/A Little Possessed.md",
+    "KanBan Boards/Games/Haunted Workshop",
+    "KanBan Boards/Games/A Little Possessed",
+    "KanBan Boards/Games/A Little Possessed/A Little Possessed Game Ideas.md",
+    "Untitled.base",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Dependency Injection in Spring.md",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Database Integration with Spring Data JPA.md",
     "KanBan Boards/Games/Reaction Order/Reaction Order.md",
     "KanBan Boards/Games/Reaction Order/KanBan Board.md",
-    "KanBan Boards/Quran Application.md",
+    "Learning Java/Spring Boot/Learning Java Spring Boot Framework Fundamentals/Getting Started with Spring Boot.md",
+    "Templates/KanBan Card Template.md",
     "KanBan Boards/Untitled",
     "KanBan Boards/Games/Reaction Order/Cards",
     "KanBan Boards/Games/Tetris Game/Tetris.md",
@@ -215,20 +230,9 @@
     "KanBan Boards/Games/Orbit Foundry/Cards Notes/Foundation.md",
     "KanBan Boards/Games/Orbit Foundry/Cards Notes",
     "KanBan Boards/Games/Orbit Foundry",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Build a real prototype package.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Strengthen the project architecture.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Improve game feel.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Make the player's decisions interesting.md",
-    "Templates/KanBan Card Template.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Finish the current core loop.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Match Loop & Victory Loss Conditions.md",
-    "KanBan Boards/Games/Commercial Game/Cards Notes/Explosion Penalty System.md",
     "KanBan Boards/Games/Tetris Game/Pasted image 20260813220821.png",
     "KanBan Boards/Games/Commercial Game/Cards Notes",
     "KanBan Boards/Games/Commercial Game",
-    "KanBan Boards/Games/Tetris Game/Card Notes",
-    "Templates",
-    "Untitled.base",
     "Pasted image 20260813220718.png",
     "Pasted image 20260813220300.png",
     "Learning Java/Spring Boot/Mastering Spring Boot - Building APIs/images/authentication-diagrame.png"
